@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boda Boda - Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="auth-container">
+        <!-- LEFT SIDEBAR -->
+        <div class="sidebar">
+            <div class="shape shape-top-right"></div>
+            <div class="shape shape-top-right-inner"></div>
+            <div class="shape shape-bottom-left"></div>
+            <div class="shape shape-bottom-curve"></div>
+
+            <div class="sidebar-content">
+                <a href="index.html" class="logo">
+                    <i class="fa-solid fa-motorcycle"></i>
+                    <span>BodaConnect</span>
+                </a>
+                <h1>Get Started <br>With Your <br><span>Fleet</span></h1>
+                <p>Create your account and take the first step towards smarter business management.</p>
+            </div>
+
+            <div class="sidebar-footer">
+                <span>Already have an account?</span>
+                <a href="index.html">Log in <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- RIGHT FORM AREA -->
+        <div class="form-area">
+            <div class="step-indicator">Step 1 of 1</div>
+            
+            <div class="form-header" style="text-align: left; margin-bottom: 30px;">
+                <h2>Create Your Account</h2>
+                <p>Fill in your details to get started.</p>
+            </div>
+
+            <!-- Form submits to dashboard.html (Simulated Signup) -->
+            <form action="dashboard.html">
+                <div class="input-group">
+                    <label>Full Name <span>*</span></label>
+                    <div class="input-wrapper">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Enter your full name" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address <span>*</span></label>
+                    <div class="input-wrapper">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <input type="email" placeholder="Enter your Email Address" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Phone Number <span>*</span></label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="tel" placeholder="Enter your Phone Number" required>
+                    </div>
+                </div>
+
+                <div class="terms-group">
+                    <input type="checkbox" required>
+                    <span>I agree to the <a href="#">Terms & Condition</a> and <a href="#">Privacy Policy</a></span>
+                </div>
+
+                <button type="submit" class="btn-primary">Create Account <i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+
+            <div class="divider"><span>or continue with</span></div>
+
+            <div class="social-buttons">
+                <button class="social-btn"><i class="fa-brands fa-google"></i> Google</button>
+                <button class="social-btn"><i class="fa-brands fa-facebook"></i> Facebook</button>
+                <button class="social-btn"><i class="fa-brands fa-apple"></i> Apple</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
