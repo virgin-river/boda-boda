@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodaConnect - Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-wrapper">
+        <!-- DASHBOARD SIDEBAR -->
+        <div class="dash-sidebar">
+            <a href="dashboard.html" class="logo">
+                <i class="fa-solid fa-motorcycle"></i>
+                <span>BodaConnect</span>
+            </a>
+            <ul class="dash-nav">
+                <li><a href="dashboard.html" class="active"><i class="fa-solid fa-chart-pie"></i> Dashboard</a></li>
+                <li><a href="register-rider.html"><i class="fa-solid fa-user-plus"></i> Register Rider</a></li>
+                <li><a href="#"><i class="fa-solid fa-map-location-dot"></i> Live Tracking</a></li>
+                <li><a href="#"><i class="fa-solid fa-wallet"></i> Earnings</a></li>
+                <li style="margin-top: auto;"><a href="index.html"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- DASHBOARD CONTENT -->
+        <div class="dash-content">
+            <div class="dash-header">
+                <h2>Fleet Overview</h2>
+                <div class="user-profile">
+                    <span>Admin User</span>
+                    <img src="https://ui-avatars.com/api/?name=Admin+User&background=F9A826&color=fff" alt="User">
+                </div>
+            </div>
+
+            <!-- STATS CARDS -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-motorcycle"></i></div>
+                    <div class="stat-info">
+                        <h3>124</h3>
+                        <p>Active Riders</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-route"></i></div>
+                    <div class="stat-info">
+                        <h3>1,492</h3>
+                        <p>Trips Today</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-money-bill-wave"></i></div>
+                    <div class="stat-info">
+                        <h3>KSh 45,200</h3>
+                        <p>Daily Earnings</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-clock"></i></div>
+                    <div class="stat-info">
+                        <h3>4.8</h3>
+                        <p>Avg Rating</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RECENT ACTIVITY TABLE -->
+            <div class="table-container">
+                <h3>Recent Rider Activity</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rider Name</th>
+                            <th>Bike Reg No.</th>
+                            <th>Location</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Kamau</td>
+                            <td>KMEA 123X</td>
+                            <td>Westlands</td>
+                            <td><span class="status active">Active</span></td>
+                        </tr>
+                        <tr>
+                            <td>Peter Ochieng</td>
+                            <td>KMEB 456Y</td>
+                            <td>CBD</td>
+                            <td><span class="status active">Active</span></td>
+                        </tr>
+                        <tr>
+                            <td>Mary Wanjiku</td>
+                            <td>KMEC 789Z</td>
+                            <td>Kilimani</td>
+                            <td><span class="status pending">Pending</span></td>
+                        </tr>
+                        <tr>
+                            <td>David Mwangi</td>
+                            <td>KMED 101A</td>
+                            <td>Eastleigh</td>
+                            <td><span class="status active">Active</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
